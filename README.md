@@ -1,4 +1,3 @@
-📄 README.md (FINAL – TASK-1 SUBMISSION)
 # Task 1 – Strapi Setup & Blog Content Modeling
 
 ## 👤 Author
@@ -40,10 +39,9 @@ This task gave me hands-on experience with a real-world backend content manageme
 ## ⚙️ Project Setup Instructions
 
 ### 1️⃣ Clone the Repository
-```bash
+``bash
 git clone https://github.com/Imdpkk/strapi-task-1.git
 cd devops-internship/my-strapi-app
-
 2️⃣ Install Dependencies
 npm install
 
