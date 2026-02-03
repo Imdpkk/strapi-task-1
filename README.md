@@ -1,163 +1,156 @@
-# Task 1 – Strapi Setup & Blog Content Modeling
+🚀 Strapi Task-1 — Blog Content Modeling (DevOps Internship)
 
-## 👤 Author
-**Deepak Vishwakarma**
+Author: Deepak Vishwakarma
+Role: Aspiring Cloud & DevOps Engineer
+Task: Internship Pre-Evaluation (Task-1)
 
-## 📌 Internship Task
-This repository contains my submission for **Task-1** of the DevOps Internship Program.
+✨ Overview
 
-The objective of this task was to explore **Strapi v5**, run it locally, understand its admin panel, create a content model, and manage content using a real CMS workflow.
+This repository contains my Task-1 submission for the DevOps Internship program.
 
----
+The goal of this task was to set up Strapi v5 locally, understand its architecture, work with the admin panel, design a Blog content model, manage content, and submit the work using a proper GitHub Pull Request workflow.
 
-## 🚀 Project Overview
+Rather than just completing steps, I focused on understanding how a real CMS fits into modern Cloud & DevOps environments.
 
-In this task, I successfully:
+🧰 Tech Stack
 
-- Created and ran a **Strapi v5 application locally**
-- Configured and accessed the **Strapi Admin Panel**
-- Designed a **Blog collection type**
-- Added custom fields using the Content-Type Builder
-- Created and **published multiple blog entries**
-- Managed the project using **Git and GitHub**
-- Submitted work via a **Pull Request**
+Strapi v5 (Headless CMS)
 
-This task gave me hands-on experience with a real-world backend content management system.
+Node.js
 
----
+JavaScript
 
-## 🛠️ Tech Stack Used
+SQLite (default local database)
 
-- **Strapi v5**
-- **Node.js**
-- **JavaScript**
-- **SQLite (default database)**
-- **Git & GitHub**
+Git & GitHub
 
----
-
-## ⚙️ Project Setup Instructions
-
-### 1️⃣ Clone the Repository
-``bash
+⚙️ Local Setup Guide
+1️⃣ Clone the Repository
 git clone https://github.com/Imdpkk/strapi-task-1.git
 cd devops-internship/my-strapi-app
+
 2️⃣ Install Dependencies
 npm install
 
-3️⃣ Run Strapi Locally
+3️⃣ Run Strapi
 npm run develop
 
-4️⃣ Access Admin Panel
+4️⃣ Open Admin Panel
 http://localhost:1337/admin
 
 
-Create an admin account on first run.
+Create an admin account on first launch.
 
-🧱 Content Modeling (Blog Collection)
+🧱 Content Architecture
 
-Using the Content-Type Builder, I created a Blog collection type with the following fields:
+I designed a Blog collection type using Strapi’s Content-Type Builder.
 
-Field Name	Type
+Blog Schema
+Field	Type
 title	Text
 description	Rich Text
 author	Text
+
+This schema mirrors a real-world content model commonly used in production systems.
+
 📝 Content Management
 
 Created multiple blog entries
 
-Added meaningful content
+Added structured and meaningful content
 
-Saved and published entries using the Content Manager
+Used Draft → Publish workflow
 
-Verified entries were visible and properly structured
+Verified schema changes reflect correctly in the Content Manager
 
-This helped me understand how content flows from schema → data → API.
+This helped me understand schema → data → API flow in headless CMS platforms.
 
-🔁 Git & GitHub Workflow
+🔁 GitHub Workflow
 
-Initialized Git repository
+To follow professional practices, I used a GitHub Pull Request–based workflow:
 
-Created feature branches
+Initialized Git repository correctly
+
+Used feature branches
 
 Committed meaningful changes
 
-Pushed code to GitHub
+Raised a Pull Request for review
 
-Raised a Pull Request as required for submission
+🔗 Pull Request:
+👉 https://github.com/Imdpkk/strapi-task-1/pull/1
 
-🔗 Pull Request Link:
-https://github.com/Imdpkk/strapi-task-1/pull/1
+🎥 Loom Walkthrough
 
-🎥 Loom Video Walkthrough
-
-A short Loom video is included showing:
+A Loom video is recorded demonstrating:
 
 Strapi running locally
 
 Admin dashboard
 
-Blog collection and published entries
+Blog content type
 
-GitHub repository and PR
+Published blog entries
 
-📹 Loom Link: (Added in Excel & Teams submission)
+GitHub repository & PR
 
-🧠 What I Learned from This Task
+📹 Loom Link: (submitted via Excel & Teams)
 
-Through this task, I learned:
+🧠 Key Learnings
 
-How a Headless CMS like Strapi works
+This task helped me gain practical understanding of:
 
-Difference between Content-Type Builder and Content Manager
+Headless CMS concepts
 
-How backend schemas are designed and evolved
+Strapi v5 UI and architecture
 
-Practical usage of admin panels in real products
+Content modeling and schema evolution
 
-Importance of clean Git workflows
+Admin panels used in real products
 
-Debugging real setup issues instead of following tutorials blindly
+Debugging setup issues independently
 
-This task improved my confidence in working with unfamiliar tools and understanding them deeply.
+Clean Git & PR workflows under real constraints
 
-☁️ Relevance to My Cloud & DevOps Journey
+Most importantly, it taught me how backend systems are actually used before deployment.
 
-This task directly contributes to my Cloud and DevOps learning path:
+☁️ Relevance to Cloud & DevOps
 
-Strapi applications can be containerized using Docker
+This task strongly aligns with my Cloud & DevOps learning journey:
 
-Can be deployed on AWS / GCP / Azure
+Strapi apps can be containerized with Docker
 
-Uses APIs that integrate well with CI/CD pipelines
+Easily deployable on AWS / GCP / Azure
 
-Content-driven apps are common in real production systems
+Works well with CI/CD pipelines
 
-Helps understand backend services before deploying them to cloud
+Represents a real backend service used in production
 
-Understanding application behavior is essential before automating, scaling, and monitoring it in DevOps workflows.
+Reinforces the idea that DevOps starts with understanding applications
+
+You can’t automate or scale what you don’t understand — this task helped bridge that gap.
 
 🔮 Future Enhancements
 
-If given more time, I would like to:
+If extended further, I would:
 
 Dockerize the Strapi application
 
 Deploy it on a cloud VM or Kubernetes cluster
 
-Configure environment variables securely
-
 Add CI/CD using GitHub Actions
 
-Connect a frontend (React / Next.js)
+Secure secrets via environment variables
 
-Implement role-based access and API security
+Integrate a frontend (React / Next.js)
 
-🎯 Conclusion
+Apply role-based access and API security
 
-This task was more than just a setup exercise.
-It helped me understand real backend systems, CMS workflows, and how such applications fit into modern Cloud and DevOps environments.
+🎯 Final Note
 
-I am highly interested in learning more, contributing actively, and growing as a DevOps engineer through this internship.
+This task was not just about completing instructions —
+it was about learning how real backend systems are built, managed, and prepared for cloud deployment.
+
+I’m highly motivated to continue learning, contributing, and growing as a Cloud & DevOps Engineer through this internship.
 
 Thank you for the opportunity.
